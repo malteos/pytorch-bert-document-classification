@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "WikiData Author Embeddings",
+      "tensorShape": [
+        5465,
+        200
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/malteos/pytorch-bert-document-classification/master/extras/author2embedding.projector.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/malteos/pytorch-bert-document-classification/master/extras/author2embedding.projector_meta.tsv"
+    }
+  ]
+}
