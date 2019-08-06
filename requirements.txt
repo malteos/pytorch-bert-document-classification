@@ -1,0 +1,18 @@
+pandas 
+tqdm 
+scikit-learn 
+pytorch-pretrained-bert
+jupyter
+matplotlib
+numpy
+
+# cli
+fire
+
+# author embeddings
+wikimapper
+smart-open
+
+# for padding
+keras
+tensorflow
