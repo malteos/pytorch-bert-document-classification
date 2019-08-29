@@ -1,14 +1,21 @@
 # PyTorch BERT Document Classification
-Enriching BERT with Knowledge Graph Embedding for Document Classification (PyTorch)
 
-Content:
-- CLI script
-- author embeddings
-  - projector files
-  - create file
-- data preparation
-- requirements
-- trained model weights as release zips
+Enriching BERT with Knowledge Graph Embedding for Document Classification.
+A submission to the [GermEval 2019 shared task](https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/germeval-2019-hmc.html) on hierarchical text classification.
+If you encounter any problems, feel free to contact us or submit a GitHub issue.
+
+## Content
+
+- CLI script to run all experiments
+- WikiData author embeddings ([view on Tensorboard Projector](http://projector.tensorflow.org/?config=https://github.com/malteos/pytorch-bert-document-classification/raw/master/extras/projector_config.json))
+- Data preparation
+- Requirements
+- Trained model weights as [release files](https://github.com/malteos/pytorch-bert-document-classification/releases)
+
+## Model architecture
+
+![BERT + Knowledge Graph Embeddings](https://github.com/malteos/pytorch-bert-document-classification/raw/master/images/architecture.png)
+
 
 ## Installation
 
@@ -104,17 +111,18 @@ The scores from the result table can be reproduced with the `evaluation.ipynb` n
 
 If you are using our code, please cite our paper:
 ```
-@article{,
-  title={},
-  author={},
-  journal={arXiv preprint arXiv:},
-  year={2019}
+@inproceedings{Ostendorff2019,
+    address = {Erlangen, Germany},
+    author = {Ostendorff, Malte and Bourgonje, Peter and Berger, Maria and Moreno-Schneider, Julian and Rehm, Georg},
+    booktitle = {Proceedings of the GermEval 2019 Workshop},
+    title = {{GermEval 2019 Task 1 : Hierarchical Classification of Blurbs}},
+    year = {2019}
 }
-
 ```
 
 ## References
 
+- [GermEval 2019 Task 1 on Codalab](https://competitions.codalab.org/competitions/20139)
 - [Google BERT Tensorflow](https://github.com/google-research/bert)
 - [Huggingface PyTorch Transformer](https://github.com/huggingface/pytorch-transformers)
 - [Deepset AI - BERT-german](https://deepset.ai/german-bert)
