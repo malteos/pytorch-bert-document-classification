@@ -7,7 +7,7 @@ If you encounter any problems, feel free to contact us or submit a GitHub issue.
 ## Content
 
 - CLI script to run all experiments
-- WikiData author embeddings ([view on Tensorboard Projector](http://projector.tensorflow.org/?config=https://github.com/malteos/pytorch-bert-document-classification/raw/master/extras/projector_config.json))
+- WikiData author embeddings ([view on Tensorboard Projector](http://projector.tensorflow.org/?config=https://raw.githubusercontent.com/malteos/pytorch-bert-document-classification/master/extras/projector_config.json))
 - Data preparation
 - Requirements
 - Trained model weights as [release files](https://github.com/malteos/pytorch-bert-document-classification/releases)
@@ -115,7 +115,7 @@ If you are using our code, please cite our paper:
     address = {Erlangen, Germany},
     author = {Ostendorff, Malte and Bourgonje, Peter and Berger, Maria and Moreno-Schneider, Julian and Rehm, Georg},
     booktitle = {Proceedings of the GermEval 2019 Workshop},
-    title = {{GermEval 2019 Task 1 : Hierarchical Classification of Blurbs}},
+    title = {{Enriching BERT with Knowledge Graph Embedding for Document Classification}},
     year = {2019}
 }
 ```
