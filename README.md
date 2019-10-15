@@ -1,6 +1,6 @@
 # PyTorch BERT Document Classification
 
-Enriching BERT with Knowledge Graph Embedding for Document Classification.
+Implementation and pre-trained models of the paper *Enriching BERT with Knowledge Graph Embedding for Document Classification* ([PDF](https://arxiv.org/abs/1909.08402)).
 A submission to the [GermEval 2019 shared task](https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/germeval-2019-hmc.html) on hierarchical text classification.
 If you encounter any problems, feel free to contact us or submit a GitHub issue.
 
@@ -109,7 +109,7 @@ The scores from the result table can be reproduced with the `evaluation.ipynb` n
 
 ## How to cite
 
-If you are using our code, please cite our paper:
+If you are using our code, please cite [our paper](https://arxiv.org/abs/1909.08402):
 ```
 @inproceedings{Ostendorff2019,
     address = {Erlangen, Germany},
